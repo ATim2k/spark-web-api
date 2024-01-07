@@ -1,0 +1,24 @@
+{
+  "name": "spark-web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node src/app.ts"
+  },
+  "author": "ATim2k",
+  "license": "GPL V3.0",
+  "dependencies": {
+    "@types/form-data": "^2.5.0",
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21"
+  }
+}
